@@ -14,7 +14,7 @@
 
         <div>
 
-            <h1>Config Property Update</h1>
+            <h1>Config Property Framework</h1>
             <input type="text" id="searchInput" class="search-bar" placeholder="Search by CONFIG_KEY">
             <div id="rowCount">Row Count: 0</div>
             <button class="action-btn" onclick="loadConfig()">Load Config</button>
