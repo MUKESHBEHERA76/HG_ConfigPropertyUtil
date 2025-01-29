@@ -1,0 +1,24 @@
+
+=============================================
+DATABASE and tables needs to be created
+=============================================
+MY SQL
+____________________________________
+CREATE DATABASE WM_ADMINISTRATION
+USE DATABASE WM_ADMINISTRATION
+
+CREATE TABLE WM_ADMINISTRATION.CONFIG_PROPERTY (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    PACKAGE_NAME VARCHAR(100),
+    CONFIG_KEY VARCHAR(200) UNIQUE,
+    CONFIG_VALUE TEXT
+);
+
+
+
+=============================================
+Cache manager and Cache needs to be created
+=============================================
+
+Cache manager that needs to be created : ConfigPropertyCacheManager
+Cache that needs to be created : ConfigPropertyCache
