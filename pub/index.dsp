@@ -35,7 +35,7 @@
                     </tr>
 
                 </thead>
-                %invoke HG_ConfigPropertyUtil.v1.adapter:selectConfigProperty%
+                %invoke HG_ConfigPropertyUtil.v1.services:selectConfigProperty%
                     <tbody>
                         %loop selectConfigPropertyOutput/results%
                         <tr>
